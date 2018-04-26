@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+    <string name="location_image">location image</string>
+    <string name="art">art</string>
+    <string name="hotels">hotels</string>
+    <string name="food">food</string>
+    <string name="events">events</string>
+
+    <string name="locname">locname</string>
+    <string name="locdesc">locdesc</string>
+    <!--art-->
+    <string name="caravaggio">Caravaggio</string>
+    <string name="caravaggio_museo">Shepards Adoration - Messina Regional Museum</string>
+    <string name="catalani">Catalani Church</string>
+    <string name="catalani_church">Norman architecture on Sicily from the 12th century</string>
+    <string name="cristo">Cristo Re Sacrarium</string>
+    <string name="cristore">Baroque masterpiece, designed in 1937 and built on the ruins of the Castle of Matagrifone.</string>
+    <string name="nettuno">Neptune</string>
+    <string name="nettuno_statue">fountain dedicated to the Sea God that calms waters </string>
+    <string name="taormina">Taormina</string>
+    <string name="taormina_theatre">Greek theatre built to accommodate drama and musical performances , transformed during the Roman times to make room for games and gladiatorial battles</string>
+    <!--hotels-->
+    <string name="sandomenico">San Domenico Palace</string>
+    <string name="sandomenico_desc">Five stars hotel with gardens and terraces overlooking Mount Etna and Taormina Bay</string>
+    <string name="capopeloro">Capo Peloro Hotel</string>
+    <string name="capopeloro_desc">Five stars resort in north Messina</string>
+    <string name="bordonaro">Bordonaro</string>
+    <string name="bordonaro_desc">Bread and breakfast</string>
+    <string name="briga">Briga</string>
+    <string name="briga_desc">Bread and breakfast</string>
+    <!--food-->
+    <string name="cannoli">Cannoli</string>
+    <string name="cannoli_desc">fried waffles filled with ricotta and candied fruit</string>
+    <string name="ocuntre">Ocuntre\'</string>
+    <string name="ocuntre_desc">organic cuisine restaurant</string>
+    <string name="orso">L\'orso</string>
+    <string name="orso_desc">Pub and pizza restaurant</string>
+    <string name="spaghetti">spaghetti with seafood</string>
+    <string name="spaghetti_desc">fragrant and tasty sea disk that contains the true flavors and aromas of the Mediterranean</string>
+
+
+
+    <!--event-->
+    <string name="bell">bell tower</string>
+    <string name="bell_show">every day at twelve movement mechanism show with Ave Maria of Schubert</string>
+    <string name="kites">flying kites</string>
+    <string name="kites_fest">Capo Peloro Fest - April 28 2018</string>
+    <string name="vara">Vara</string>
+    <string name="vara_fest">religious fest: every year on August 15</string>
+    <string name="tech">TechDay</string>
+    <string name="tech_day">GDG and WTM Nebrodi Community event on may 5 2018</string>
+    <string-array name="category">
+        <item>art</item>
+        <item>hotels</item>
+        <item>food</item>
+        <item>events</item>
+    </string-array>
+
+</resources>
