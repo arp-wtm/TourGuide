@@ -27,11 +27,19 @@ import android.widget.ListView;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * {@link Fragment} that displays a list of location according the category name
+ */
 public class LocationFragment extends Fragment {
 
     private static final String CATEGORY = "CATEGORY";
 
+    /**
+     * Create a new instance of LocationFragment, initialized to
+     * show the text at 'category'.
+     */
     public static LocationFragment newInstance(String category) {
+        // Supply category input as an argument
         Bundle args = new Bundle();
         args.putString(CATEGORY, category);
         LocationFragment locationFragment = new LocationFragment();
@@ -39,6 +47,7 @@ public class LocationFragment extends Fragment {
         return locationFragment;
     }
 
+    // creates and returns the location list associated with the fragment.
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -47,6 +56,7 @@ public class LocationFragment extends Fragment {
 
     }
 
+    // decide which fragment you populate
     @Override
     public void onViewCreated(View rootView, Bundle savedInstanceState) {
         super.onViewCreated(rootView, savedInstanceState);
