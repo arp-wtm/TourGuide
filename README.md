@@ -9,7 +9,7 @@ Each list can be scrolled up-down also.
 # model 
 Location is a custom class used to model the row information that we show to the user.<br>
 It contains resource ID for the image, the string name and the string description.<br>
-#adapters
+# adapters
  . LocationAdapter is an ArrayAdapter that  provides the layout for each list item <br>
  based on a list of Location objects<br>
  . CategoryAdapter is a FragmentPagerAdapter that provides the layout for <br>
